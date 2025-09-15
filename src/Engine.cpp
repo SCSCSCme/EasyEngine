@@ -3,8 +3,6 @@
 #include <functional>
 #include <stdexcept>
 
-#define DEBUG
-
 Engine::Engine() {
     if (SDL_Init(SDL_INIT_VIDEO) < 0) {
         error("Engine: 初始化SDL3失败. ");
