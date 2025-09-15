@@ -2,9 +2,6 @@
  * The program entry point
 */
 
-#define DEBUG
-
-#include <iostream>
 #include <Engine.hpp>
 
 int main(int argc, char const *argv[])

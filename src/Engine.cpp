@@ -2,7 +2,8 @@
 
 #include <functional>
 #include <stdexcept>
-#include <iostream>
+
+#define DEBUG
 
 Engine::Engine() {
     if (SDL_Init(SDL_INIT_VIDEO) < 0) {
