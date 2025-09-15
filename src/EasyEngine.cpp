@@ -7,7 +7,7 @@
 int main(int argc, char const *argv[])
 {
     /* code */
-    std::cout << "Main: 程序运行" << '\n';
+    log("Main: 程序开始运行. ")
     Engine* engine = new Engine();
     engine->Run();
     delete engine;
